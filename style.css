@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f5fad1;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #19370d;
+  margin: 32px;
+  margin-top: -4px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #19370d;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.info {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #19370d;
+  margin: 40px;
+}
+
+      .name{
+      font-size: 80%;
+      font-weight: 400;
+      text-align: left;
+      }
+
+      .main-nav {
+      background-color: slategray; 
+      padding: 16px 0;
+      margin-bottom: 40px;
+      }
+
+      .nav-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; 
+      justify-content: center; 
+      gap: 24px; 
+      }
+
+      .nav-item a {
+      text-decoration: none; 
+      color: white;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      transition: color 0.3s ease; 
+      }
+
+      .nav-item a:hover {
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+      }
+
+a {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #19370d;
+}
+
+.center-block-link {
+  display: block; 
+  width: fit-content; 
+  margin: 16px auto;
+  text-align: center;
+}
+
+img {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  display: block; 
+  margin: 20px auto; 
+  object-position: center;
+  justify-content: center;
+}
+
+.imgflex {
+  display: flex;
+}
+
+.imgprofile {
+  width: 200px;
+  border-radius: 50%;
+  object-position: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.box {
+  object-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.box2 {
+  object-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  margin: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.infobox {
+  margin: auto;
+}
+
+.picturecard {
+  object-fit: cover;
+  width: fit-content;
+  height: max-content;
+}
+
+.card {
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgmax {
+    width: 100%;  /* ทำให้รูปภาพกว้างเต็ม container */
+    height: 100%; /* ทำให้รูปภาพสูงเต็ม container */
+    object-fit: cover; /* **สำคัญ:** ทำให้รูปภาพครอบคลุมพื้นที่ทั้งหมด, อาจมีการตัดบางส่วนออก */
+    object-position: center; /* (Optional) กำหนดจุดโฟกัสของภาพที่ต้องการให้แสดง */
+    margin: 0;
+    max-width: 100%;
+}
